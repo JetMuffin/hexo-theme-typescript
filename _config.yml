@@ -1,7 +1,7 @@
 # Meta
-description: A minimal hexo theme.
-keywords: hexo,theme,typescript,otakism,otaku
-site_desc: otaku keeps alive
+description: JetMuffin's blog.
+keywords: jetmuffin,blog
+site_desc: kai zo ku, ore wa naru
 
 # Navigation
 navigation:
@@ -18,7 +18,7 @@ navigation:
 # Search
 search: 
   enable: true
-  service: google # google/hexo/algolia/azure/baidu
+  service: hexo # google/hexo/algolia/azure/baidu
   # google 
   google_api_key:
   google_engine_id:
@@ -36,7 +36,7 @@ search:
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-author_url: http://rakugaki.me
+author_url: http://blog.jetmuffin.com
 
 # Less
 less:
@@ -45,28 +45,13 @@ less:
 # use url, not username
 social:
 - slug: email
-  url: #mailto:i@artifact.me
+  url: mailto:jeffchen328@gmail.com
 - slug: github
-  url: https://github.com/artchen
-- slug: twitter
-  url: https://twitter.com/otakism
+  url: https://github.com/JetMuffin
 - slug: rss
-	url: /atom.xml
+  url: /atom.xml
 - slug: google
-  url: https://plus.google.com/+ArtChenOtakism/posts
-- slug: facebook
-  url: # https://www.facebook.com/zanchoret
-- slug: linkedin
-  url: # https://www.linkedin.com/in/buzun
+  url: https://plus.google.com/u/0/104827733284453469708
 - slug: sina-weibo
-  url: http://weibo.com/otakism/
-- slug: tumblr
-  url: # http://artchen.tumblr.com
-- slug: dribbble
-  url: # https://dribbble.com/artchen
-- slug: pinterest
-  url: # https://www.pinterest.com/otakism/
-- slug: instagram
-  url: # https://instagram.com/otakism/
-- slug: behance
-  url: # https://www.behance.net/artchen
+  url: http://weibo.com/1922357801
+
