@@ -31,13 +31,13 @@
     <link rel="icon" href="<%- theme.favicon %>">
   <% } %>
 
-	<script src="https://use.typekit.net/eyf3hir.js"></script>
-  <script>try{Typekit.load({ async: false });}catch(e){}</script>
   <%- css('style.css') %>
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
     }
   </script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("IxqcEzmebHkRECv72mAIKAAk-gzGzoHsz", "JIhGNtTGcnfuLSkHRx70dlVw");</script>
   <%- partial('google-analytics') %>
 </head>
