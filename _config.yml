@@ -14,6 +14,9 @@ navigation:
 - name: Archives
   slug: archives
   url: /archives
+- name: Links
+  slug: links
+  url: /links
 
 # Search
 search: 

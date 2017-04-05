@@ -16,8 +16,12 @@
     
     <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
     <script>setLoadingBarProgress(80);</script>
+
+    <div class="overlay"></div>
     
   </div>
+
+  <%- partial('_partial/sidebar') %>
 
   <%- partial('_partial/scripts') %>
   <script>setLoadingBarProgress(100);</script>

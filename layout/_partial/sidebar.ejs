@@ -1,0 +1,39 @@
+<div class="site-sidebar" id="site-sidebar">
+    <div class="sidebar-switch clearfix" style="display:none"><a class="dark-btn active" data-toggle="toc"><span
+                    class="icon icon-list"></span> <span class="text">Index</span> </a><a class="dark-btn"
+                                                                                          data-toggle="bio"><span
+                    class="icon icon-person"></span> <span class="text">Bio</span></a></div>
+    <div class="site-toc" style="display:none">
+        <div class="no-index">No Index</div>
+    </div>
+    <div class="site-bio show" style="display:block">
+        <div class="about-me clearfix">
+            <div class="avatar"><img src="/images/avatar.jpeg"></div>
+            <div class="info"><a class="name dark-btn" href="/about">JetMuffin</a></div>
+            <div class="info"><span class="item desc"><%- theme.site_desc %></span></div>
+        </div>
+        <div class="menu section">
+            <ul class="clearfix">
+                <% theme.navigation.forEach(function(value, key) {
+                if (value.url && value.slug && value.name) {
+                if(key % 2 == 0) {
+                %>
+                <li class="left"><a href="<%= value.url %>" onfocus="this.blur()"
+                                    class="nav-<%= value.slug %> dark-btn block"><%= value.name %></a></li>
+
+                <% } else { %>
+
+                <li class="right"><a href="<%= value.url %>" onfocus="this.blur()"
+                                     class="nav-<%= value.slug %> dark-btn block"><%= value.name %></a></li>
+
+                </a>
+                <% } } }); %>
+            </ul>
+        </div>
+    </div>
+    <div class="shortcuts"><a href="#header" class="top window-nav dark-btn" id="go-top"><span
+                    class="icon icon-chevron-thin-up"></span> </a><a class="close dark-btn" id="sidebar-close"><span
+                    class="icon icon-close"></span> </a><a href="#footer" class="top window-nav dark-btn"
+                                                           id="go-bottom"><span
+                    class="icon icon-chevron-thin-down"></span></a></div>
+</div>
